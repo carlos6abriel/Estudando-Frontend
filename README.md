@@ -1,4 +1,4 @@
-# Páginas ou projeto que fiz e faço enquanto sigo minha jornada estudando frontend:
+# Páginas ou projeto que fiz e continuo fazendo enquanto sigo minha jornada estudando frontend:
 
 |Nome|Repositório|Tecnologias |
 |---|---|---|
