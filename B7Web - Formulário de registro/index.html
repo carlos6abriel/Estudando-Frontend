@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="assets/cadastro-de-vendas.webp" alt="Imagem de cadastro">
+        </div>
+        <div class="right">
+            <div class="login">
+                <h1>Criar Conta</h1>
+                <p>Possui conta? <a href="">Login</a></p>
+            </div>
+            <div class="form">
+                <form action="" method="post">
+                    <div class="name">
+                            <h4>Nome Completo</h4>
+                            <input class="inName" type="text" name="fullName" placeholder="Digite seu nome completo" autofocus style="padding: 10px;" required>
+                    </div>
+                    <div class="email">
+                            <h4>Email</h4>
+                            <input class="inEmail" type="email" name="email" placeholder="Digite seu email" style="padding: 10px;" required>
+                    </div>
+                    <div class="phoneNumber">
+                            <h4>Telefone</h4>
+                            <input class="inPhone" type="tel" name="phoneNumber" placeholder="Digite seu número de telefone" style="padding: 10px;" required>
+                    </div>
+                    <div class="password">
+                            <div class="passPass">
+                                <h4>Senha</h4>
+                                <input class="inPassword" type="password" name="password" placeholder="Digite sua senha" style="padding: 10px;" required>
+                            </div>
+                            <div class="passRepeat">
+                                <h4>Confirmar senha</h4>
+                                <input class="inRepeat" type="password" name="repeatPassword" placeholder="Confirme a senha" style="padding: 10px;" required>
+                            </div>
+                    </div>
+                    <div class="button">
+                        <input class="inButton" type="submit" value="Cadastrar" name="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
